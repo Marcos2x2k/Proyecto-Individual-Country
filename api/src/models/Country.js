@@ -16,6 +16,7 @@ module.exports = (sequelize) => {
     },
     imageflag:{
       type: DataTypes.STRING,
+      defaultValue: 'https://elordenmundial.com/wp-content/uploads/2019/12/Captura-de-pantalla-2019-12-04-a-las-12.43.10-1310x824.png',
       allowNull: true
     },
     capital:{
@@ -25,10 +26,12 @@ module.exports = (sequelize) => {
     },
     subregion:{
       type: DataTypes.STRING,
+      defaultValue: 'No Subregion',
       allowNull: true
     },
     area:{
       type: DataTypes.FLOAT,
+      defaultValue: 'No Area',
       allowNull: false
     },
     population:{

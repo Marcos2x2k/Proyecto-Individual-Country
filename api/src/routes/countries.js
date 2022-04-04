@@ -3,5 +3,8 @@ const { Country, Activity, Activity_Country } = require('../db.js'); //importo l
 const { Op } = require('sequelize')
 const axios = require('axios');
 
+
 const router = Router();
 
+
+module.exports = router;
